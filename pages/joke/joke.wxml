@@ -1,0 +1,10 @@
+<import src="/pages/common/loadMore/loadMore.wxml" />
+
+<scroll-view scroll-y="true" bindscrolltolower="loadMore" style="height: {{ scrollHeight }}px;">
+  <block wx:for="{{ list }}">
+    <view class="joke-content">
+      <view class="text">{{ item.text }}</view>
+    </view>
+  </block>
+</scroll-view>
+<template is="loadMore" data="{{ hidden }}"></template>

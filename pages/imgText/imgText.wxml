@@ -1,0 +1,11 @@
+<import src="/pages/common/loadMore/loadMore.wxml" />
+
+<scroll-view scroll-y="true" bindscrolltolower="loadMore" style="height: {{ scrollHeight }}px;">
+  <block wx:for="{{ list }}">
+    <view class="imgText-content">
+      <text class="title ">{{ item.title }}</text>
+      <image class="img" src="{{ item.img }}"></image>
+    </view>
+  </block>
+</scroll-view>
+<template is="loadMore" data="{{ hidden }}"></template>

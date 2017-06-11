@@ -1,0 +1,17 @@
+@import "/pages/common/loadMore/loadMore.wxss";
+
+.joke-content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20rpx 40rpx;
+  margin-bottom: 14rpx;
+  background: #fff;
+}
+
+.text {
+  padding: 20rpx;
+  font-size: 32rpx;
+  line-height: 54rpx;
+}
+
+
