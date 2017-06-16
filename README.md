@@ -9,6 +9,6 @@
 * 获取文字、动态图、图片。
 * 上拉加载更多数据。
 ## 项目截图
-
+![项目截图](http://www.loveyunk.com/resource/gif/wechat-app-joke.gif)
 ## 安装预览
 获取源码后，直接在微信开发者工具中找开即可。
