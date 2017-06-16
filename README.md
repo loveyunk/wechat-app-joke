@@ -10,5 +10,7 @@
 * 上拉加载更多数据。
 ## 项目截图
 ![项目截图](http://www.loveyunk.com/resource/gif/wechat-app-joke.gif)
+## 项目已上线，扫码体验
+![项目二维码](http://www.loveyunk.com/resource/img/wechat-app-joke-code.jpg)
 ## 安装预览
 获取源码后，直接在微信开发者工具中找开即可。
